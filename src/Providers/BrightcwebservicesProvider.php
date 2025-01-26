@@ -21,7 +21,7 @@ class BrightcwebservicesProvider extends ServiceProvider
     public function boot(): void
     {  
        // dd(config("brightpaypalconfig.client_id"));
-        $this->loadRoutesFrom(__DIR__.'/../routes/brightcwebpaypalroutes.php');
+      //  $this->loadRoutesFrom(__DIR__.'/../routes/brightcwebpaypalroutes.php');
      //   $this->loadViewsFrom(__DIR__.'/../resources/views', 'brightcwebpaypal');
      $this->copyViewsToApp();
         // publish view
