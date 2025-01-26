@@ -1,0 +1,51 @@
+{
+    "name": "brightcweb/paypal",
+    "description": "A professional PayPal integration package for Laravel applications, suitable for any Laravel application, such as NGO'S, e-commerces and more",
+    "keywords": [
+        "paypal",
+        "laravel",
+        "payment gateway",
+        "laravel 11",
+        "php 8",
+        "paypal integration",
+        "payment processing",
+        "Bright C Web Developer",
+        "brightcweb",
+        "laravel paypal",
+        "laravel paypal integration package",
+        "laravel payment gateway",
+        "laravel 11 paypal integration",
+        "brightcweb laravel paypal integration",
+        "brightcweb laravel paypal integration package",
+        "brightcweb laravel payment gateway",
+        "brightcweb laravel 11 paypal integration",
+        "brightcweb laravel 11 paypal integration package",
+        "brightcweb laravel 11 payment gateway"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Brightcweb\\Paypal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brightcweb\\Paypal\\Providers\\BrightcwebservicesProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Bright C Web Developer",
+            "email": "chikanwazuo@gmail.com.com",
+            "role": "Web Developer"
+        }
+    ],
+  "brightcweb/paypal": "dev-main",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^11.0"
+    }
+}
